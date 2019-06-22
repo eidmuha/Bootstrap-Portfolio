@@ -1,0 +1,86 @@
+.container-fluid{
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    height: 80px;
+    
+}
+
+
+
+
+header{
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    height: 78px;;
+
+}
+
+
+
+.mytitle{
+    background-color: #4aaaa5;
+    padding: 15px 10px 15px 10px;
+}
+body{
+    color: #777777;
+    /* margin: 0 auto; */
+    font-family: Arial, Helvetica, sans-serif;
+   
+    background-image: url("white-waves.png");
+}
+
+.container{
+    width: 67%;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 2px;
+}
+
+.img-responsive{
+    float: left;
+    padding: 5px;
+}
+#aboutme{
+    margin-top: 20px;
+    font-size:4vw;
+    color: #4aaaa5;
+    margin-bottom: -15px;
+}
+.bg_name{
+
+    background-color: #4aaaa5;
+    height: 76px;
+}
+.myname{
+    font-size:4vw;
+    padding: 10px 5px 10px 5px;
+    margin-top: -12px
+}
+
+footer{
+    height: 40px;
+    background-color: #666666;
+    color: #dbd8d8;
+    text-align: center;
+    /* padding-top: px; */
+    padding-bottom: 4px;
+    margin: 0 auto;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    border-top-style: solid;
+    border-width: 7px;
+    border-color: #4aaaa5;
+}
+
+
+.navbar{
+    width: 70%;
+    margin:auto;
+    position: relative;
+}

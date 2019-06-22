@@ -1,0 +1,10 @@
+.container{
+    width: 50%;
+}
+
+.navbarnav{
+    float: right;
+}
+.navbar-brand{
+    float: left;
+}
