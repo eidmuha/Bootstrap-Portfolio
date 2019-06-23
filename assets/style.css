@@ -1,20 +1,8 @@
-/* .container-fluid{
-    background-color: #ffffff;
-    border-bottom-style: solid;
-    border-width: 1px;
-    border-color: #cccccc;
-    height: 80px;
+
+.navbar-brand{
+    background-color: #4aaaa5;
+    padding: 10px 10px 10px 10px;
     
-} */
-
-
-header{
-    background-color: #ffffff;
-    border-bottom-style: solid;
-    border-width: 1px;
-    border-color: #cccccc;
-    height: 78px;;
-
 }
 
 #sticky-footer {
@@ -27,12 +15,7 @@ header{
     position: fixed;
     width: 100%;
   }
-  
 
-.mytitle{
-    background-color: #4aaaa5;
-    padding: 15px 10px 15px 10px;
-}
 body{
     color: #777777;
     /* margin: 0 auto; */
@@ -42,61 +25,30 @@ body{
     background-image: url("white-waves.png");
 }
 
-/* .maincontainer{
-    width: 67%;
-    background-color: #ffffff;
-    margin: auto;
-    margin-top: 2px;
-} */
-
 .img-responsive{
     float: left;
-    padding: 5px;
+    padding-right: 8px;
 }
+
 #aboutme{
     margin-top: 20px;
-    font-size:4vw;
+    font-size:3vw;
     color: #4aaaa5;
     margin-bottom: -15px;
 }
+
 #primary-nav{
     background-color: white;
     border-bottom-style: solid;
     border-color: gray;
 }
-/* .bg_name{
 
-    background-color: #4aaaa5;
-    height: 76px;
+
+.navbar{
+    padding: 0px;
+    margin-left: -15px;
 }
-.myname{
-    font-size:3vw;
-    padding: 10px 5px 10px 5px;
-    margin-top: -12px
-} */
 
-/* footer{
-    height: 40px;
-    background-color: #666666;
-    color: #dbd8d8;
-    text-align: center;
-    padding-bottom: 4px;
-    margin: 0 auto;
-    bottom: 0px;
-    left: 0px;
-    position: absolute;
-    width: 100%;
-    border-top-style: solid;
-    border-width: 7px;
-    border-color: #4aaaa5;
-} */
-
-
-/* .navbar{
-    width: 70%;
-    margin:auto;
-    position: relative;
-} */
 .container{
     width: 75%;
     background-color: white;
