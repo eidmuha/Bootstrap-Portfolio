@@ -10,9 +10,7 @@
     <!-- Links to external CSS, JQuery and Javascript mainly because of bootstrap 4 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 
     <!-- Link to the external CSS -->
     <link rel="stylesheet" type="text/css" href="assets/style.css">
@@ -20,47 +18,47 @@
 
 <body>
 
-    <!-- A div only because of the background color -->
-    <div id="primary-nav">
-        <!-- The container that contains the whole menu -->
-        <div class="container">
+    <!-- Main Navigation bar that has a title and navigation menus -->
+    <nav class="navbar  navbar-expand-md navbar-light bg-white sticky-top border-bottom">
+        <div class="container w-75">
+            <a class="navbar-brand mb-n2 ml-n4" href="index.html"><b class="text-white">Eid Muhammad</b></a>
 
-            <!-- Main Navigation bar that has a title and navigation menus -->
-            <nav class="navbar  navbar-expand-md navbar-light bg-white sticky-top">
-                <a class="navbar-brand" href="index.html"><b style="color:white;">Eid Muhammad</b></a>
+            <!-- A button for the collapsed menu when smaller screens -->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <!-- A button for the collapsed menu when smaller screens -->
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <!-- What is included in the collapsed menu for smaller screens -->
+            <div class="collapse navbar-collapse" id="collapse_target">
 
-                <!-- What is included in the collapsed menu for smaller screens -->
-                <div class="collapse navbar-collapse" id="collapse_target">
+                <ul class="navbar-nav ml-auto font-weight-bold pt-n2 mt-4">
 
-                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                    </u l>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-
-                </div>
-            </nav>
+            </div>
         </div>
-    </div>
+    </nav>
 
 
 
     <!-- The container contains the main contents -->
-    <div style="padding-bottom: 100px; padding-top: 20px;" class="container">
-        <!-- <h1>Contact Me Here:</h1> -->
-        <hr>
+    <div class="container w-75 bg-white p-5">
+        <div class="row">
+            <div class="col">
+                <!-- Main Content Heading -->
+                <h1 id="aboutme">Contact Me</h1>
+                <hr>
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-6">
                 <!-- the address details -->
@@ -77,35 +75,46 @@
                     <label>Name</label>
                     <input name="name" class="form-control">
                 </div>
-           
+
                 <div class="form-group">
                     <label>Email</label>
                     <input name="name" class="form-control">
                 </div>
-           
+
                 <div class="form-group">
                     <label>Message</label>
                     <textarea class="form-control" rows="7"></textarea>
                 </div>
-            
+
                 <div class="form-group">
                     <button class="btn btn-primary btn-block">Send</button>
                 </div>
             </div>
-            </div>
         </div>
-
     </div>
 
 
 
 
+
     <!-- Sticky footer with fixed position -->
-    <footer id="sticky-footer" class="py-4 bg-dark">
-        <div class="container-fluid text-center">
+    <footer class="sticky-footer bg-dark py-2 fixed-bottom">
+        <div class="container text-center">
             <span class="text-muted">&copy; eid</span>
         </div>
     </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 </body>
 

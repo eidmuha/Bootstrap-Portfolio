@@ -10,98 +10,96 @@
     <!-- Links to external CSS, JQuery and Javascript mainly because of bootstrap 4 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <!-- Link to the external CSS -->
     <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-    <!-- A div only because of the background color -->
-    <div id="primary-nav">
-        <!-- The container that contains the whole menu -->
-        <div class="container">
-
-            <!-- Main Navigation bar that has a title and navigation menus -->
-            <nav class="navbar  navbar-expand-md navbar-light bg-white sticky-top">
-                <a class="navbar-brand" href="index.html"><b>Eid Muhammad</b></a>
-
-                <!-- A button for the collapsed menu when smaller screens -->
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- What is included in the collapsed menu for smaller screens -->
-                <div class="collapse navbar-collapse" id="collapse_target">
-
-                    <ul class="navbar-nav ml-auto">
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-
-                </div>
-            </nav>
+   <!-- Main Navigation bar that has a title and navigation menus -->
+  <nav class="navbar  navbar-expand-md navbar-light bg-white sticky-top border-bottom">
+        <div class="container w-75">
+          <a class="navbar-brand mb-n2 ml-n4" href="index.html"><b class="text-white">Eid Muhammad</b></a>
+    
+          <!-- A button for the collapsed menu when smaller screens -->
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- What is included in the collapsed menu for smaller screens -->
+          <div class="collapse navbar-collapse" id="collapse_target">
+    
+            <ul class="navbar-nav ml-auto font-weight-bold pt-n2 mt-4">
+    
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+    
+          </div>
         </div>
-    </div>
+      </nav>
 
 
 
     <!-- The container contains the main contents -->
-    <div style="padding-top: 30px; padding-bottom: 70px;" class="container">
+    <div class="container w-75 bg-white p-5">
+        <div class="row">
+            <div class="col">
+                <!-- Main Content Heading -->
+                <h1 id="aboutme">Portfolio</h1>
+                <hr>
+            </div>
+        </div>
         <div class="row justify-content-center">
             <div class="col-auto mb-3">
+
                 <!-- for each card -->
                 <div class="card">
 
-                    <img class="card-img-top"
-                        src="https://github.com/eidmuha/Basic-Portfolio/blob/master/assets/images/context_diagram.png?raw=true"
-                        alt="Card image cap">
+                    <iframe src="https://eidmuha.github.io/TriviaGame/" frameborder="0" scrolling="no">
+                    </iframe>
                     <div class="card-body">
-                        <p class="card-text">Some Description of the Image</p>
+                        <p class="card-text">Trivial Trivia <a href="https://eidmuha.github.io/TriviaGame/" target="blank" class="text-white float-right">More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+                        
                     </div>
                 </div>
             </div>
 
             <div class="col-auto mb-3">
                 <div class="card">
-                    <img class="card-img-top"
-                        src="https://github.com/eidmuha/Basic-Portfolio/blob/master/assets/images/context_diagram.png?raw=true"
-                        alt="Card image cap">
+                    <iframe src="https://eidmuha.github.io/GifyAPIDemonstration/" frameborder="0" scrolling="no">
+                    </iframe>
                     <div class="card-body">
-                        <p class="card-text">Some Description of the Image</p>
+                        <p class="card-text">Search Gifs using Gify API <a href="https://eidmuha.github.io/GifyAPIDemonstration/" target="blank" class="text-white float-right">More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p> 
                     </div>
                 </div>
             </div>
 
             <div class="col-auto mb-3">
                 <div class="card">
-                    <img class="card-img-top"
-                        src="https://github.com/eidmuha/Basic-Portfolio/blob/master/assets/images/context_diagram.png?raw=true"
-                        alt="Card image cap">
+                    <iframe src="https://eidmuha.github.io/Word-Guess-Game/" frameborder="0" scrolling="no">
+                    </iframe>
                     <div class="card-body">
-                        <p class="card-text">Some Description of the Image</p>
+                        <p class="card-text">Word Guess Game <a href="https://eidmuha.github.io/Word-Guess-Game/" target="blank" class="text-white float-right">More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
                     </div>
                 </div>
             </div>
 
             <div class="col-auto mb-3">
                 <div class="card">
-                    <img class="card-img-top"
-                        src="https://github.com/eidmuha/Basic-Portfolio/blob/master/assets/images/context_diagram.png?raw=true"
-                        alt="Card image cap">
+                    <iframe src="https://eidmuha.github.io/crystal_collector_game/" frameborder="0" scrolling="no">
+                    </iframe>
                     <div class="card-body">
-                        <p class="card-text">Some Description of the Image</p>
+                        <p class="card-text">Crystal Collector Game <a href="https://eidmuha.github.io/crystal_collector_game/" target="blank" class="text-white float-right">More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
                     </div>
                 </div>
             </div>
@@ -122,13 +120,22 @@
     </div>
 
 
-    <!-- Sticky footer with fixed position -->
-    <footer id="sticky-footer" class="py-4 bg-dark">
-        <div class="container-fluid text-center">
+    <footer class="sticky-footer bg-dark py-2 fixed-bottom ">
+        <div class="container text-center">
             <span class="text-muted">&copy; eid</span>
         </div>
     </footer>
 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

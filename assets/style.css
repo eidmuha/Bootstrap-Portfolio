@@ -4,22 +4,33 @@
     padding: 10px 10px 10px 10px;    
 }
 
-#sticky-footer {
-    flex-shrink: none;
-    height: 40px;
-    border-top-style: solid;
-    border-width: 7px;
-    border-color: #4aaaa5;
-    bottom: 0px;
-    position: fixed;
-    width: 100%;
+/* Gives the vertical bar between the menus */
+.navbar-nav>li{
+    border-right: 1px solid #F7F7F7;
+    line-height: 9px;
+  }
+
+  .navbar-nav>li:last-child{
+    border: none;
+ }
+
+ .navbar{
+    border-width:1px !important;
+ }
+
+  .border-top{
+      border-width:3px !important;
+  }
+
+  .border-success{
+      border-color: #4aaaa5 !important;
   }
 
 body{
     color: #777777;
     /* margin: 0 auto; */
     font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
+    /* height: 100%; */
    
     background-image: url("white-waves.png");
 }
@@ -34,23 +45,6 @@ body{
     font-size:3vw;
     color: #4aaaa5;
     margin-bottom: -15px;
-}
-
-#primary-nav{
-    background-color: white;
-    border-bottom-style: solid;
-    border-color: gray;
-}
-
-
-.navbar{
-    padding: 0px;
-    margin-left: -15px;
-}
-
-.container{
-    width: 75%;
-    background-color: white;
 }
 
 /* specific to portfolio.html */

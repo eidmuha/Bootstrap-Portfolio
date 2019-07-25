@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
- 
+
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
+
   <title>Eid Portfolio</title>
   <!-- Viewport that supports different devices -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,9 +13,7 @@
   <!-- Links to external CSS, JQuery and Javascript mainly because of bootstrap 4 -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 
   <!-- Link to the external CSS -->
   <link rel="stylesheet" type="text/css" href="assets/style.css">
@@ -25,87 +23,99 @@
 <body>
 
   <!-- A div only because of the background color -->
-  <div id="primary-nav">
-    <!-- The container that contains the whole menu -->
-    <div class="container">
+  <!-- <div class="container-fluid"> -->
+  <!-- The container that contains the whole menu -->
+  <!-- <div class="container w-75 bg-white"> -->
 
-      <!-- Main Navigation bar that has a title and navigation menus -->
-      <nav class="navbar  navbar-expand-md navbar-light bg-white sticky-top">
-        <a class="navbar-brand" href="index.html"><b>Eid Muhammad</b></a>
+  <!-- Main Navigation bar that has a title and navigation menus -->
+  <nav class="navbar  navbar-expand-md navbar-light bg-white sticky-top border-bottom">
+    <div class="container w-75">
+      <a class="navbar-brand mb-n2 ml-n4" href="index.html"><b class="text-white">Eid Muhammad</b></a>
 
-        <!-- A button for the collapsed menu when smaller screens -->
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <!-- A button for the collapsed menu when smaller screens -->
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <!-- What is included in the collapsed menu for smaller screens -->
-        <div class="collapse navbar-collapse" id="collapse_target">
+      <!-- What is included in the collapsed menu for smaller screens -->
+      <div class="collapse navbar-collapse" id="collapse_target">
 
-          <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto font-weight-bold pt-n2">
 
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
 
-        </div>
-      </nav>
+      </div>
     </div>
-  </div>
+  </nav>
 
   <!-- The container contains the main contents -->
-  <div style="padding-bottom: 100px;" class="container h-100">
+  <div class="container w-75 bg-white p-5">
 
-    <!-- Main Row for the contents -->
-    <div class="row h-100 justify-content-center align-items-center">
-
-      <!-- The main content gets only 11 columns -->
-      <div class="col-sm-11">
-
+    <div class="row">
+      <div class="col">
         <!-- Main Content Heading -->
         <h1 id="aboutme">About Me</h1>
         <hr>
+      </div>
+    </div>
+
+    <!-- Main Row for the contents -->
+    <div class="row justify-content-center">
+      <!-- The main content gets only 12 columns -->
+      <div class="col">
 
         <!-- Profile image goes here -->
         <img class="img-responsive img-fluid" src="assets/eid_bio_pic.jpg" height="135px" width="200px">
 
         <!-- Texts related to the profile photo -->
-        <p class="text-justify">I am a Full-Stack Developer based in Melbourne. The web development approach, I follow
-          is very dynamic to the
-          cutting-edge
-          technologies and user experiences. I love what I do, and adore the creative and logical process; it is
-          addictive and
-          is my professional job.
-
-
-          <p class="text-justify">Computer Science and programming is never boring. It is a game-play more and enjoy
-            more. The more we get to
-            know things
-            the more we explore and envolved with our work. I have not given up to continue programming and building the
-            websites.
+        <p class="text-justify">I am full stack web developer with one year experience in research center and
+          multiple startup projects and knowledge of Software Engineering from a renowned German University.
+          I am certified in full stack web development and have expertise in web development using HTML,
+          CSS, BootStrap, React, Node.js, JavaScript, and related libraries as I have built many applications
+          during bootcamp at Monash University.
+          <p class="text-justify ">
+            Specialized skills in Object Oriented Programming, software
+            architecture, design with positive user experience and strengths in working hard, critical thinking,
+            generating ideas, and attention to detail among which my practical tips and tricks were highly distinguished
+            by students and professor during my previous job.
           </p>
 
-          <p class="text-justify">Recent graduate with a master degree in Computer Science from a German university.
-            Very good understanding of Computer software and hardware gained from my previous
-            jobs and study. And it is time to get cracking with practical stuff.</p>
-        </p>
+          <p class="text-justify ">
+            As an IT Support engineer and receptionist in my past roles,
+            I have gained special skills to handle customers and present satisfactory product or services
+          </p>
 
       </div>
     </div>
   </div>
+  </div>
 
-  <!-- Sticky footer with fixed position -->
-  <footer id="sticky-footer" class="py-4 bg-dark">
-    <div class="container-fluid text-center">
+  <footer class="sticky-footer bg-dark fixed-bottom p-2 border-top border-success">
+    <div class="container text-center">
       <span class="text-muted">&copy; eid</span>
     </div>
   </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
 </body>
 
